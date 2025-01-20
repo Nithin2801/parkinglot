@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div>
+        <h1>Parking Lot Management</h1>
+    </div>
+    <div id="container">
+        <form action="">
+            <label for="owner-name">Vechicle Owner Name</label>
+            <input id="owner-name" type="text" value="">
+            <br>
+            <label for="vechicle-name">Vechicle Name</label>
+            <input id="vechicle-name" type="text" name="vechicle-name" >
+            <br>
+            <label for="vechile-num">Vechicle Number</label>
+            <input type="text" id="vechicle-num">
+            <br>
+            <label for="entry-date">Entry-date</label>
+            <input type="date" id="entry-date">
+            <br>
+            <label for="exit-date">Exit-date</label>
+            <input type="date" id="exit-date">
+            <br>
+            <input type="submit" value="submit" id="submit-btn">
+            
+        </form>
+        
+    </div>
+    <table id="details-table" border="1">
+        <thead>
+            <tr>
+                <th>Owner Name</th>
+                <th>Vehicle Name</th>
+                <th>Vehicle Number</th>
+                <th>Entry Date</th>
+                <th>Exit Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="details-box"></tbody>
+    </table>
+    
+    
+<script src="script2.js"></script>   
+</body>
+</html>
